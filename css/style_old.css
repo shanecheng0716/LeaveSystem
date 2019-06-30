@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+	font-family:  微軟正黑體;
+}
+
+table, tr, td, th{
+	border: 0px;
+}
+
+input{
+	border-style: 1px #eee solid;
+}
+
+table tr:nth-child(odd) {
+	background-color: #fdfaea;
+}
+
+/*網頁小標題*/
+.span_title{
+	color: black;
+	text-decoration:none;
+	font-size: 30px;
+
+	border-radius: 0 35%;
+	display: inline-block;
+	padding-top: 7px;      
+	background-color: #f1d757;
+	width: 50%;
+	height: 45px; 
+}
+
+/*姓名*/
+.span0{
+	color: white;
+	text-decoration:none;
+	font-size: 18px;
+
+	display: inline-block;
+	padding-top: 8px;
+	background-color: black;
+	border-radius: 0 ;
+	width: 100%;
+	height: 28px; 
+}
+
+/*超連結*/
+.span1{
+	color: black;
+	text-decoration:none;
+	font-size: 18px;
+
+	display: inline-block;
+	padding-top: 8px;
+	background-color: #ddd;
+	border-radius: 0 ;
+	width: 100%;
+	height: 28px; 
+}
+
+.span1:hover {
+	background-color: #eee;
+}
+
+/*暫用連結*/
+.span2{
+	color: black;
+	text-decoration:none;
+	font-size: 18px;
+
+	display: inline-block;
+	padding-top: 8px;
+	background-color: #a3d1d1;
+	border-radius: 0 ;
+	width: 100%;
+	height: 28px; 
+}
+
+.span2:hover {
+	background-color: #D1E9E9;
+}
+
+.span3{
+	color: black;
+	text-decoration:none;
+	font-size: 18px;
+
+	display: inline-block;
+	padding-top: 8px;
+	background-color: #bce5db;
+	border-radius: 0 ;
+	width: 100%;
+	height: 28px; 
+}
+
+.span3:hover {
+	background-color: #d6efe9;
+}
+
+/*按鈕*/
+.btn {
+  display: inline-block;
+  padding: 3px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #ddd;
+}
+/*
+#b6aad1 - admin
+#c5d1aa - adminboss
+#d1b6aa - boss
+#aac5d1 - employee
